@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="images/Icons/favicon.svg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <script
+      src="https://kit.fontawesome.com/e2e3ad19b1.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>URGENT FUEL- FUEL ON YOUR DOORSTEP</title>
+  </head>
+
+  <body>
+    <!--
+      ==========================
+        Header area
+      ==========================
+    -->
+    <header>
+      <!-- Navbar section  -->
+      <nav class="navbar navbar-expand-lg navbar-light nav-right">
+        <div class="container fuel-nav">
+          <a class="navbar-brand" href="#"
+            ><img class="logo" src="images/LogoBlack PNG.png" alt=""
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa fa-navicon"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#testimonial">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About Us</a>
+              </li>
+              <div class="registration">
+                <button class="btn nav-dashboard" type="button">
+                  Dashboard
+                </button>
+              </div>
+            </ul>
+            <div class="menu-profile">
+              <img src="images/profileEbrahim.jpg" alt="">
+            </div>
+          </div>
+        </div>
+        <!--end fuel-nav-->
+      </nav>
+      <!--/ End Navbar -->
+    </header>
+    <main>
+      <section class="profile-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <div class="profile-info">
+                <div>
+                  <img
+                    src="images/profileEbrahim.jpg"
+                    alt=""
+                    class="profile-img"
+                  />
+                  <h5>Mahadi Ebrahim</h5>
+                  <p>Web Developer</p>
+                </div>
+              </div>
+              <button class="view-profile">
+                <i class="far fa-user"></i> View Profile
+              </button>
+            </div>
+            <div class="col-md-4">
+              <div class="count-section">
+                <div class="box-active">
+                  <h5>Total Delivered</h5>
+                  <h2>1543 L</h2>
+                </div>
+                <div class="count-box">
+                  <h5>Delivered (Last Month)</h5>
+                  <h2>153 L</h2>
+                </div>
+                <div class="box-active">
+                  <h5>Total Cost</h5>
+                  <h2>137,327 /-</h2>
+                </div>
+                <div class="count-box">
+                  <h5>Cost (Last Month)</h5>
+                  <h2>13,617 /-</h2>
+                </div>
+              </div>
+              <button class="view-profile">
+                <i class="far fa-clipboard"></i> View Detailed Report
+              </button>
+            </div>
+            <div class="col-md-4">
+              <div class="delivery-section">
+                <h5>Pending Delivery</h5>
+                <h1>50 L</h1>
+                <div class="delivery-info">
+                  <div class="delivery-type"><p>Type : Fuel</p></div>
+                  <div class="delivery-cost"><p>Total Cost: 4500</p></div>
+                  <div class="delivery-date">
+                    <p><i class="fas fa-calendar-alt"></i> Date</p>
+                  </div>
+                  <div class="delivery-time">
+                    <p><i class="fas fa-clock"></i> 13.32.52</p>
+                  </div>
+                  <div class="delivery-location">
+                    <p><i class="fas fa-map-marker-alt"></i> Lalbag, Dhaka</p>
+                  </div>
+                </div>
+              </div>
+              <button class="view-profile">
+                <i class="fas fa-map-marker"></i> View Details
+              </button>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-8">
+              <div>
+                <canvas id="myChart"></canvas>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="b-skills">
+              <div class="skill-item center-block">
+                <div class="chart-container">
+                  <div
+                  class="chart"
+                  data-percent="73"
+                  data-bar-color="#f04a27"
+                  >
+                  <span class="percent" data-after="%">73</span>
+                  <span class="inner-text">Fuel Level</p>
+                  </div>
+                </div>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/jquery.appear.min.js"></script>
+    <script src="js/jquery.easypiechart.min.js"></script>
+    <script>
+      // <block:setup:1>
+      const labels = [
+        '0',
+        'Sat',
+        'Sun',
+        'Mon',
+        'Tue',
+        'Wed',
+        'Thu',
+        'Fri'
+      ];
+      const rowset = [
+        '250',
+        '500',
+        '750',
+        '1000'
+      ]
+
+      const data = {
+        labels: labels,
+        datasets: [{
+          label: "Urgent Fuel",
+          fill:true,
+          backgroundColor: 'rgb(248, 144, 44,0.4)',
+          borderColor: '#f8902c',
+          data: [0, 100,300,200,400,402,604,203],
+        }]
+      };
+      // </block:setup>
+
+      // <block:config:0>
+      const config = {
+        type: 'line',
+        data,
+        options: {
+            legend: {
+              display: false,
+            },
+            scales: {
+              y : {
+                min: 0,
+                max: 1000,
+                scaleSteps: 250,
+              }
+            }   
+        }
+      };
+      // </block:config>
+
+      module.exports = {
+        actions: [],
+        config: config,
+      };
+    </script>
+    <script>
+      // === include 'setup' then 'config' above ===
+      var myChart = new Chart(
+          document.getElementById('myChart'),
+          config
+        );
+    </script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
