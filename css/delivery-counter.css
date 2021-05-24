@@ -61,3 +61,15 @@
     letter-spacing: 0;
     font-weight: 600;
 }
+
+@media(min-width: 481px) and (max-width: 768px) {
+    .count-section h2 {
+        font-size: 24px;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 993px) {
+    .count-section h2 {
+        font-size: 24px;
+    }
+}

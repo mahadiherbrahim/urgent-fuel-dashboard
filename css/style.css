@@ -23,7 +23,7 @@ button:focus {
 }
 
 main {
-    padding-top: 50px;
+    padding-top: 11px;
 }
 
 /* Button Style */
@@ -40,15 +40,15 @@ main {
     border-radius: 8px;
     border: none;
     text-align: center;
-    margin-top: 20px;
+    margin-top: 14px;
 }
 
 /* Graph Section Style */
 
 .grap-chart-section {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 40px;
-    padding: 20px;
+    padding: 10px;
     border-radius: 16px;
     box-shadow: 0px 22px 40px rgba(108.37500303983688, 108.37500303983688, 108.37500303983688, 0.17000000178813934);
     background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
@@ -57,23 +57,8 @@ main {
 /* Responsive Style */
 
 @media (max-width: 480px) {
-    #navbarNav {
-        text-align: right;
-    }
-    .fuel-nav .navbar-nav .nav-item .nav-link:hover {
-        border-bottom: 0px;
-    }
-    .fuel-nav .navbar-nav .nav-item .active {
-        border-bottom: 0px;
-    }
-    .registration {
-        margin-top: 20px;
-    }
     .view-profile {
         margin-bottom: 20px;
-    }
-    .menu-profile {
-        display: none;
     }
     #order3 {
         order: 3;
@@ -81,26 +66,8 @@ main {
 }
 
 @media(min-width: 481px) and (max-width: 768px) {
-    #navbarNav {
-        text-align: right;
-    }
-    .fuel-nav .navbar-nav .nav-item .nav-link:hover {
-        border-bottom: 0px;
-    }
-    .fuel-nav .navbar-nav .nav-item .active {
-        border-bottom: 0px;
-    }
-    .registration {
-        margin-top: 20px;
-    }
     .view-profile {
         margin-bottom: 20px;
-    }
-    .menu-profile {
-        display: none;
-    }
-    .count-section h2 {
-        font-size: 24px;
     }
     #order3 {
         order: 3;
@@ -108,18 +75,6 @@ main {
 }
 
 @media(min-width: 768px) and (max-width: 993px) {
-    #navbarNav {
-        text-align: right;
-    }
-    .fuel-nav .navbar-nav .nav-item .nav-link:hover {
-        border-bottom: 0px;
-    }
-    .fuel-nav .navbar-nav .nav-item .active {
-        border-bottom: 0px;
-    }
-    .count-section h2 {
-        font-size: 24px;
-    }
     #order1 {
         order: 1;
         margin-top: 40px;
@@ -129,10 +84,6 @@ main {
     }
     #order3 {
         order: 3;
-    }
-    .b-skills {
-        height: 330px;
-        padding-top: 60px;
     }
 }
 

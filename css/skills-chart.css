@@ -1,14 +1,14 @@
 /* Fuel Level */
 
 .b-skills {
-    margin-top: 40px;
+    margin-top: 30px;
     margin-bottom: 40px;
     padding-top: 33px;
     padding-left: 26%;
     text-align: center;
     justify-content: center;
     align-items: center;
-    height: 269px;
+    height: 254px;
     border-radius: 16px;
     box-shadow: 0px 22px 40px rgba(108.37500303983688, 108.37500303983688, 108.37500303983688, 0.17000000178813934);
     background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
@@ -75,4 +75,12 @@
 .skill-item .inner-text:after {
     content: attr(data-after);
     font-size: 20px;
+}
+
+@media(min-width: 768px) and (max-width: 993px) {
+    .b-skills {
+        height: 330px;
+        padding-top: 70px;
+        padding-left: 22%;
+    }
 }
