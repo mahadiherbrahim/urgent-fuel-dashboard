@@ -1,0 +1,63 @@
+/*Delivary section*/
+
+.count-section {
+    /* margin-right: 3px;
+    margin-left: 3px; */
+    column-row-gap: 5px;
+    height: 254px;
+    border-radius: 16px;
+    background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
+}
+
+.row-gap {
+    margin-bottom: 10px;
+}
+
+.count-box, .box-active {
+    background-image: linear-gradient(to right, rgba(248.0000004172325, 150.0000062584877, 44.000001177191734, 1) 0%, rgba(239.00000095367432, 60.00000022351742, 38.0000015348196, 1) 100%);
+    height: 120px;
+    border-radius: 9px;
+    padding: 20px;
+    color: white;
+    box-shadow: 0px 22px 40px rgba(108.37500303983688, 108.37500303983688, 108.37500303983688, 0.17000000178813934);
+}
+
+.box-active {
+    background-image: none;
+    border: 1px solid #f04a27;
+    background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
+}
+
+.box-active h2 {
+    font-family: Montserrat;
+    font-size: 26px;
+    letter-spacing: 0;
+    font-weight: 600;
+    color: rgba(134.93749290704727, 134.93749290704727, 134.93749290704727, 1);
+}
+
+.box-active h5 {
+    font-size: 14px;
+    background: -webkit-linear-gradient(0deg, rgba(248.0000004172325, 150.0000062584877, 44.000001177191734, 1) 0%, rgba(239.00000095367432, 60.00000022351742, 38.0000015348196, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    text-align: left;
+    letter-spacing: 0;
+}
+
+.count-box h5 {
+    color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
+    font-family: Montserrat;
+    text-align: left;
+    font-size: 14px;
+    letter-spacing: 0;
+}
+
+.count-box h2 {
+    color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
+    font-family: Montserrat;
+    font-size: 26px;
+    letter-spacing: 0;
+    font-weight: 600;
+}

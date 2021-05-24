@@ -1,0 +1,39 @@
+/*Profile */
+
+.profile-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 254px;
+    border-radius: 16px;
+    box-shadow: 0px 22px 40px rgba(108.37500303983688, 108.37500303983688, 108.37500303983688, 0.17000000178813934);
+    background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
+}
+
+.profile-img {
+    width: 152px;
+    height: 152px;
+    border-radius: 50%;
+}
+
+.profile-info h5 {
+    background: -webkit-linear-gradient(0deg, rgba(248.0000004172325, 150.0000062584877, 44.000001177191734, 1) 0%, rgba(239.00000095367432, 60.00000022351742, 38.0000015348196, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 24px;
+    letter-spacing: 0;
+    font-weight: 600;
+    padding-top: 12px;
+}
+
+.profile-info p {
+    color: rgba(61.62499822676182, 61.62499822676182, 61.62499822676182, 1);
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 0px;
+}

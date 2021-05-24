@@ -1,0 +1,64 @@
+.navbar .logo {
+    width: 180px;
+}
+
+.fuel-nav .navbar-toggler {
+    border: none;
+}
+
+.fuel-nav .navbar-toggler i {
+    font-size: 28px;
+    background: -webkit-linear-gradient(0deg, rgba(248.0000004172325, 150.0000062584877, 44.000001177191734, 1) 0%, rgba(239.00000095367432, 60.00000022351742, 38.0000015348196, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fuel-nav .navbar-toggler:focus {
+    box-shadow: none;
+}
+
+.fuel-nav .navbar-nav .nav-item .nav-link {
+    color: #2d2d2d;
+}
+
+.fuel-nav .navbar-nav .nav-item .nav-link:hover {
+    color: black;
+    border-bottom: 1px solid black;
+}
+
+.fuel-nav .navbar-nav .nav-item .active {
+    color: #2d2d2d;
+    border-bottom: 1px solid #2d2d2d;
+}
+
+.nav-dashboard {
+    border: 2px solid white;
+    background-image: linear-gradient(to right, #f7892b, #f04126);
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 4px 25px 4px 25px;
+    transition: 0.8s;
+}
+
+.nav-dashboard:hover {
+    background-color: transparent;
+}
+
+.navbar-nav a {
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 30px;
+}
+
+.nav-login, .nav-logout {
+    border: 2px solid white;
+}
+
+.menu-profile img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+    border-radius: 50%;
+}

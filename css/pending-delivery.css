@@ -1,0 +1,72 @@
+/* Pending Delivery */
+
+.delivery-section {
+    box-shadow: 0px 22px 40px rgba(108.37500303983688, 108.37500303983688, 108.37500303983688, 0.17000000178813934);
+    height: 254px;
+    border-radius: 16px;
+    background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
+    padding: 10px 20px;
+}
+
+.delivery-section h5 {
+    background: -webkit-linear-gradient(90deg, rgba(248.0000004172325, 150.0000062584877, 44.000001177191734, 1) 0%, rgba(239.00000095367432, 60.00000022351742, 38.0000015348196, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Montserrat;
+    font-size: 24px;
+    letter-spacing: 0;
+    font-weight: 900;
+    padding-top: 12px;
+}
+
+.delivery-section h1 {
+    font-family: Montserrat;
+    font-size: 55px;
+    letter-spacing: 0;
+    font-weight: 900;
+    color: rgba(134.93749290704727, 134.93749290704727, 134.93749290704727, 1);
+    line-height: 35px;
+}
+
+.delivery-info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    padding-top: 5px;
+}
+
+.box1 {
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+
+.delivery-type, .delivery-cost, .delivery-date, .delivery-time, .delivery-location {
+    border-radius: 8px;
+    height: 36px;
+}
+
+.delivery-section i {
+    padding-right: 5px;
+}
+
+.delivery-type {
+    background-color: #F8962C;
+}
+
+.delivery-cost {
+    background-color: #EF3C26;
+}
+
+.delivery-date, .delivery-time, .delivery-location {
+    background-color: #878787;
+}
+
+.delivery-section p {
+    color: rgba(255, 255, 255, 1);
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 0;
+    text-align: left;
+    padding: 10px;
+}
