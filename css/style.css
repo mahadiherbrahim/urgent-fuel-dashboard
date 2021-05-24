@@ -136,7 +136,7 @@ main {
 }
 
 .view-profile {
-    background-image: linear-gradient(0deg, rgba(248.0000004172325, 150.0000062584877, 44.000001177191734, 1) 0%, rgba(239.00000095367432, 60.00000022351742, 38.0000015348196, 1) 100%);
+    background-image: linear-gradient(to right, rgba(248.0000004172325, 150.0000062584877, 44.000001177191734, 1) 0%, rgba(239.00000095367432, 60.00000022351742, 38.0000015348196, 1) 100%);
     color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
     font-family: Montserrat;
     text-align: left;
@@ -153,18 +153,20 @@ main {
 /*Delivary section*/
 
 .count-section {
-    display: grid;
-    grid-template-columns: 2fr 205px;
-    grid-column-gap: 10px;
-    grid-row-gap: 10px;
+    /* margin-right: 3px;
+    margin-left: 3px; */
+    column-row-gap: 5px;
     height: 254px;
     border-radius: 16px;
     background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
 }
 
+.row-gap {
+    margin-bottom: 10px;
+}
+
 .count-box, .box-active {
     background-image: linear-gradient(to right, rgba(248.0000004172325, 150.0000062584877, 44.000001177191734, 1) 0%, rgba(239.00000095367432, 60.00000022351742, 38.0000015348196, 1) 100%);
-    width: 205px;
     height: 120px;
     border-radius: 9px;
     padding: 20px;
@@ -180,7 +182,7 @@ main {
 
 .box-active h2 {
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 26px;
     letter-spacing: 0;
     font-weight: 600;
     color: rgba(134.93749290704727, 134.93749290704727, 134.93749290704727, 1);
@@ -207,7 +209,7 @@ main {
 .count-box h2 {
     color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
     font-family: Montserrat;
-    font-size: 36px;
+    font-size: 26px;
     letter-spacing: 0;
     font-weight: 600;
 }
@@ -288,7 +290,8 @@ main {
 /* Fuel Level */
 
 .b-skills {
-    margin-top: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
     padding-top: 30px;
     padding-left: 20%;
     text-align: center;
@@ -361,6 +364,15 @@ main {
     font-size: 20px;
 }
 
+.grap-chart-section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 30px;
+    border-radius: 16px;
+    box-shadow: 0px 22px 40px rgba(108.37500303983688, 108.37500303983688, 108.37500303983688, 0.17000000178813934);
+    background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
+}
+
 /* Responsive Style */
 
 @media (max-width: 480px) {
@@ -403,6 +415,9 @@ main {
     .menu-profile {
         display: none;
     }
+    .count-section h2 {
+        font-size: 24px;
+    }
 }
 
 @media(min-width: 768px) and (max-width: 993px) {
@@ -414,6 +429,24 @@ main {
     }
     .fuel-nav .navbar-nav .nav-item .active {
         border-bottom: 0px;
+    }
+    .count-section h2 {
+        font-size: 24px;
+    }
+    #order1 {
+        order: 1;
+        margin-top: 40px;
+    }
+    #order2 {
+        order: 2;
+    }
+    #order3 {
+        order: 3;
+        margin-top: 20px;
+    }
+    .b-skills {
+        height: 330px;
+        padding-top: 60px;
     }
 }
 
