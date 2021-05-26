@@ -1,9 +1,6 @@
 /*Delivary section*/
 
 .count-section {
-    /* margin-right: 3px;
-    margin-left: 3px; */
-    column-row-gap: 5px;
     height: 254px;
     border-radius: 16px;
     background-color: rgba(252.87500202655792, 252.87500202655792, 252.87500202655792, 1);
@@ -60,6 +57,10 @@
     font-size: 26px;
     letter-spacing: 0;
     font-weight: 600;
+}
+
+.column-gap {
+    padding-left: 0;
 }
 
 @media(min-width: 481px) and (max-width: 768px) {
