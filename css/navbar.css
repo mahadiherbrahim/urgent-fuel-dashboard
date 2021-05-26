@@ -1,5 +1,5 @@
 .navbar .logo {
-    width: 180px;
+    width: 132px;
 }
 
 .fuel-nav .navbar-toggler {
@@ -36,8 +36,8 @@
     background-image: linear-gradient(to right, #f7892b, #f04126);
     color: white;
     font-weight: 500;
-    font-size: 16px;
-    padding: 9px 25px 9px 25px;
+    font-size: 14px;
+    padding: 8px 25px 8px 25px;
     transition: 0.8s;
     border-radius: 8px;
 }
@@ -48,7 +48,7 @@
 
 .navbar-nav a {
     color: white;
-    font-size: 16px;
+    font-size: 14px;
     font-weight: 500;
     margin-right: 30px;
 }
@@ -58,8 +58,8 @@
 }
 
 .menu-profile img {
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     margin-left: 10px;
     border-radius: 50%;
 }
