@@ -43,6 +43,10 @@ main {
     margin-top: 14px;
 }
 
+.view-profile i {
+    font-size: 18px;
+}
+
 /* Graph Section Style */
 
 .grap-chart-section {
